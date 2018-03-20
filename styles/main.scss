@@ -1,0 +1,26 @@
+// Load fonts.
+// @import "~styles/fonts/pt_sans";
+// @import "~styles/fonts/open_sans";
+
+// Load Bootstrap + bootstrap-vue.
+@import 'bootstrap-variables';
+@import '~bootstrap/scss/bootstrap';
+@import 'bootstrap-vue';
+
+// Load dependencies.
+// @import 'v-calendar/lib/v-calendar.min.css'; // .css imports don't need the `~` prefix.
+
+// Global Switex styling.
+@import "custom-styles";
+
+// Sticky footer structure.
+//.app-container {
+//  position: relative;
+//  display: flex;
+//  min-height: 100vh;
+//  flex-direction: column;
+//}
+//
+//.switex-content {
+//  flex: 1;
+//}

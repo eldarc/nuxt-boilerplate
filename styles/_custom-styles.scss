@@ -1,0 +1,17 @@
+// NOTE: This file is loaded independently from the webpack config that loads SCSS resources to each file,
+// because of that needed resources must be imported manually.
+@import 'bootstrap-variables';
+@import 'bootstrap-helpers';
+@import 'global-variables';
+
+body, html {
+  height: 100%;
+}
+
+// Default fade transition animation.
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .5s;
+}
+.fade-enter, .fade-leave-to {
+  opacity: 0;
+}

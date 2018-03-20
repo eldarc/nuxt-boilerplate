@@ -1,0 +1,36 @@
+{
+  "name": "nuxt-boilerplate",
+  "version": "0.0.1",
+  "description": "Nuxt.js boilerplate with bootstrap-vue.",
+  "author": "Eldar <eldar@ministryofprogramming.com>",
+  "private": true,
+  "scripts": {
+    "dev": "RELEASE_STAGE=dev nuxt",
+    "build": "RELEASE_STAGE=prod nuxt build",
+    "start": "nuxt start",
+    "generate": "RELEASE_STAGE=prod nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.1.1",
+    "bootstrap-vue": "^2.0.0-rc.2",
+    "nuxt": "^1.0.0",
+    "nuxt-sass-resources-loader": "^1.2.0",
+    "vue": "^2.5.16",
+    "vue-server-renderer": "^2.5.16",
+    "vue-template-compiler": "^2.5.16",
+    "vuex-persist": "^1.1.4"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "bootstrap": "^4.0.0",
+    "eslint": "^4.15.0",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-vue": "^4.0.0",
+    "node-sass": "^4.7.2",
+    "sass-loader": "^6.0.7"
+  }
+}
